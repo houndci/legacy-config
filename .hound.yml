@@ -1,5 +1,20 @@
+coffeescript:
+  config_file: coffeescript.json
+
+eslint:
+  config_file: .eslintrc
+
+haml:
+  config_file: haml.yml
+
+jshint:
+  config_file: .jshintrc
+
 ruby:
   config_file: ruby.yml
 
-coffeescript:
-  config_file: coffeescript.json
+scss:
+  config_file: scss.yml
+
+swift:
+  config_file: swift.yml
