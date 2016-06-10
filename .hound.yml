@@ -1,5 +1,8 @@
-ruby:
-  config_file: ruby.yml
-
 coffeescript:
   config_file: coffeescript.json
+
+jshint:
+  config_file: .jshintrc
+
+ruby:
+  config_file: ruby.yml
