@@ -2,7 +2,7 @@ coffeescript:
   config_file: coffeescript.json
 
 jshint:
-  config_file: .jshintrc
+  config_file: jshintrc
 
 ruby:
   config_file: ruby.yml
