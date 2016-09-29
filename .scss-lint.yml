@@ -1,0 +1,305 @@
+scss_files:  "**/*.scss"
+exclude:
+  - 'app/assets/stylesheets/vendor/**'
+  - 'app/assets/stylesheets/tcnext/base/utils/_twbs-mixins.scss'
+  - 'app/assets/stylesheets/active_admin.css.scss'
+linters:
+  NameFormat:
+    enabled: false
+  PlaceholderInExtend:
+    enabled: false
+  StringQuotes:
+    enabled: true
+  PropertySortOrder:
+    enabled: true
+    separate_groups: true
+    order:
+      - position
+      - top
+      - right
+      - bottom
+      - left
+      - z-index
+      - #Box-model
+      - display
+      - float
+      - width
+      - height
+      - max-width
+      - max-height
+      - min-width
+      - min-height
+      - padding
+      - padding-top
+      - padding-right
+      - padding-bottom
+      - padding-left
+      - margin
+      - margin-top
+      - margin-right
+      - margin-bottom
+      - margin-left
+      - margin-collapse
+      - margin-top-collapse
+      - margin-right-collapse
+      - margin-bottom-collapse
+      - margin-left-collapse
+      - overflow
+      - overflow-x
+      - overflow-y
+      - clip
+      - clear
+      - #Typography
+      - font
+      - font-family
+      - font-size
+      - font-smoothing
+      - osx-font-smoothing
+      - font-style
+      - font-weight
+      - hyphens
+      - src
+      - line-height
+      - letter-spacing
+      - word-spacing
+      - color
+      - text-align
+      - text-decoration
+      - text-indent
+      - text-overflow
+      - text-rendering
+      - text-size-adjust
+      - text-shadow
+      - text-transform
+      - word-break
+      - word-wrap
+      - white-space
+      - vertical-align
+      - list-style
+      - list-style-type
+      - list-style-position
+      - list-style-image
+      - font-variant
+      - font-stretch
+      - #Visual
+      - pointer-events
+      - cursor
+      - background
+      - background-attachment
+      - background-color
+      - background-image
+      - background-position
+      - background-repeat
+      - background-size
+      - border
+      - border-collapse
+      - border-top
+      - border-right
+      - border-bottom
+      - border-left
+      - border-color
+      - border-image
+      - border-top-color
+      - border-right-color
+      - border-bottom-color
+      - border-left-color
+      - border-spacing
+      - border-style
+      - border-top-style
+      - border-right-style
+      - border-bottom-style
+      - border-left-style
+      - border-width
+      - border-top-width
+      - border-right-width
+      - border-bottom-width
+      - border-left-width
+      - border-radius
+      - border-top-right-radius
+      - border-bottom-right-radius
+      - border-bottom-left-radius
+      - border-top-left-radius
+      - border-radius-topright
+      - border-radius-bottomright
+      - border-radius-bottomleft
+      - border-radius-topleft
+      - border-image-source
+      - border-image-slice
+      - border-image-width
+      - border-image-outset
+      - border-image-repeat
+      - background-origin
+      - content
+      - quotes
+      - outline
+      - outline-offset
+      - #Misc
+      - opacity
+      - filter
+      - visibility
+      - size
+      - zoom
+      - transform
+      - box-align
+      - box-flex
+      - box-orient
+      - box-pack
+      - box-shadow
+      - box-sizing
+      - table-layout
+      - animation
+      - animation-delay
+      - animation-duration
+      - animation-iteration-count
+      - animation-name
+      - animation-play-state
+      - animation-timing-function
+      - animation-fill-mode
+      - transition
+      - transition-delay
+      - transition-duration
+      - transition-property
+      - transition-timing-function
+      - background-clip
+      - backface-visibility
+      - resize
+      - appearance
+      - user-select
+      - interpolation-mode
+      - direction
+      - marks
+      - page
+      - set-link-source
+      - unicode-bidi
+      - speak
+  Comment:
+    enabled: true
+  DeclarationOrder:
+    enabled: true
+  SelectorFormat:
+    enabled: false
+  LeadingZero:
+    enabled: true
+    style: exclude_zero
+  StringQuotes:
+    enabled: true
+    style: single_quotes
+  BangFormat:
+    enabled: true
+    space_before_bang: true
+    space_after_bang: false
+  BorderZero:
+    enabled: false
+    convention: zero
+  ColorKeyword:
+    enabled: true
+    severity: warning
+  ColorVariable:
+    enabled: true
+  DebugStatement:
+    enabled: true
+  DuplicateProperty:
+    enabled: true
+  ElsePlacement:
+    enabled: true
+    style: same_line
+  EmptyLineBetweenBlocks:
+    enabled: true
+    ignore_single_line_blocks: true
+  EmptyRule:
+    enabled: true
+  FinalNewline:
+    enabled: true
+    present: true
+  HexLength:
+    enabled: false
+    style: short
+  HexNotation:
+    enabled: true
+    style: lowercase
+  HexValidation:
+    enabled: true
+  IdSelector:
+    enabled: true
+  ImportantRule:
+    enabled: true
+  ImportPath:
+    enabled: false
+    leading_underscore: false
+    filename_extension: false
+  Indentation:
+    enabled: true
+    allow_non_nested_indentation: false
+    character: space
+    width: 2
+  MergeableSelector:
+    enabled: true
+    force_nesting: true
+  NestingDepth:
+    enabled: true
+    max_depth: 4
+    severity: warning
+  PropertyCount:
+    enabled: true
+    include_nested: false
+    max_properties: 12
+  PropertySpelling:
+    enabled: true
+    extra_properties: []
+  QualifyingElement:
+    enabled: true
+    allow_element_with_attribute: false
+    allow_element_with_class: false
+    allow_element_with_id: false
+    severity: warning
+  SelectorDepth:
+    enabled: true
+    max_depth: 3
+    severity: warning
+  Shorthand:
+    enabled: true
+    severity: warning
+  SingleLinePerProperty:
+    enabled: true
+    allow_single_line_rule_sets: true
+  SingleLinePerSelector:
+    enabled: true
+  SpaceAfterComma:
+    enabled: true
+  SpaceAfterPropertyColon:
+    enabled: true
+    style: one_space
+  SpaceAfterPropertyName:
+    enabled: true
+  SpaceBeforeBrace:
+    enabled: true
+    style: space
+    allow_single_line_padding: false
+  SpaceBetweenParens:
+    enabled: true
+    spaces: 0
+  TrailingSemicolon:
+    enabled: true
+  TrailingZero:
+    enabled: false
+  UnnecessaryMantissa:
+    enabled: true
+  UnnecessaryParentReference:
+    enabled: true
+  UrlFormat:
+    enabled: true
+  UrlQuotes:
+    enabled: true
+  VariableForProperty:
+    enabled: false
+    properties: []
+  VendorPrefixes:
+    enabled: true
+    identifier_list: bourbon
+    include: []
+    exclude: []
+  ZeroUnit:
+    enabled: true
+    severity: warning
+  Compass::PropertyWithMixin:
+    enabled: false
