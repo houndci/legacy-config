@@ -1,5 +1,8 @@
 ruby:
   config_file: ruby.yml
-
 coffeescript:
   config_file: coffeescript.json
+scss:
+  config_file: .scss-lint.yml
+javascript:
+  ignore_file: .js-ignore
