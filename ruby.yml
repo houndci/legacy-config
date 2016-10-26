@@ -16,6 +16,21 @@ Style/AlignParameters:
   SupportedStyles:
   - with_first_parameter
   - with_fixed_indentation
+Style/MultilineMethodCallIndentation:
+  Description: Checks indentation of method calls with the dot operator
+    that span more than one line.
+  Enabled: true
+  EnforcedStyle: indented
+  SupportedStyles:
+    - aligned
+    - indented
+Style/MultilineOperationIndentation:
+  Description: Checks indentation of binary operations that span more than one line.
+  Enabled: true
+  EnforcedStyle: indented
+  SupportedStyles:
+  - aligned
+  - indented    
 Style/DotPosition:
   Description: Checks the position of the dot in multi-line method calls.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#consistent-multi-line-chains
