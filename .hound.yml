@@ -6,3 +6,5 @@ scss:
   config_file: .scss-lint.yml
 javascript:
   ignore_file: .js-ignore
+eslint:
+  enabled: true
