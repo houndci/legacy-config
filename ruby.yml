@@ -6,6 +6,7 @@ AllCops:
   Exclude:
   - "vendor/**/*"
   - "db/schema.rb"
+  - "archive/**/*"
   DisplayCopNames: false
   StyleGuideCopsOnly: false
 Style/AlignParameters:
