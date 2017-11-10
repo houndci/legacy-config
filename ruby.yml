@@ -18,7 +18,7 @@ Layout/AlignParameters:
   SupportedStyles:
   - with_first_parameter
   - with_fixed_indentation
-Style/MultilineMethodCallIndentation:
+Layout/MultilineMethodCallIndentation:
   Description: Checks indentation of method calls with the dot operator
     that span more than one line.
   Enabled: true
@@ -26,14 +26,14 @@ Style/MultilineMethodCallIndentation:
   SupportedStyles:
     - aligned
     - indented
-Style/MultilineOperationIndentation:
+Layout/MultilineOperationIndentation:
   Description: Checks indentation of binary operations that span more than one line.
   Enabled: true
   EnforcedStyle: indented
   SupportedStyles:
   - aligned
   - indented
-Style/DotPosition:
+Layout/DotPosition:
   Description: Checks the position of the dot in multi-line method calls.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#consistent-multi-line-chains
   Enabled: true
@@ -112,7 +112,7 @@ Rails/ActionFilter:
   - filter
   Include:
   - app/controllers/**/*.rb
-Style/ExtraSpacing:
+Layout/ExtraSpacing:
   Description: Do not use unnecessary spacing.
   Enabled: false
 Style/TrailingCommaInArguments:
