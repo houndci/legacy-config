@@ -9,7 +9,7 @@ AllCops:
   - "archive/**/*"
   DisplayCopNames: false
   StyleGuideCopsOnly: false
-  TargetRubyVersion: 2.4.1
+  TargetRubyVersion: 2.4.2
 Layout/AlignParameters:
   Description: Align the parameters of a method call if they span more than one line.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#no-double-indent
