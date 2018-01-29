@@ -118,3 +118,5 @@ Layout/ExtraSpacing:
 Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: no_comma
   Enabled: true
+Style/SymbolArray:
+  EnforcedStyle: brackets
