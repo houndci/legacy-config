@@ -45,7 +45,6 @@ Style/IfUnlessModifier:
   Description: Favor modifier if/unless usage when you have a single-line body.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#if-as-a-modifier
   Enabled: false
-  MaxLineLength: 100
 Style/RegexpLiteral:
   Enabled: true
   EnforcedStyle: mixed
@@ -79,7 +78,6 @@ Style/WhileUntilModifier:
   Description: Favor modifier while/until usage when you have a single-line body.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#while-as-a-modifier
   Enabled: false
-  MaxLineLength: 100
 Metrics/AbcSize:
   Description: A calculated magnitude based on number of assignments, branches, and
     conditions.
