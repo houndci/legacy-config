@@ -8,3 +8,5 @@ javascript:
   ignore_file: .js-ignore
 eslint:
   enabled: true
+rubocop:
+  version: 0.63.0
