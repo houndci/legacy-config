@@ -1,5 +1,6 @@
-ruby:
-  config_file: ruby.yml
+rubocop:
+  config_file: .rubocop.yml
+  version: 0.63.0
 coffeescript:
   config_file: coffeescript.json
 scss:
@@ -8,5 +9,3 @@ javascript:
   ignore_file: .js-ignore
 eslint:
   enabled: true
-rubocop:
-  version: 0.63.0
