@@ -1,6 +1,6 @@
 rubocop:
   config_file: .rubocop.yml
-  version: 0.63.0
+  version: 0.72.0
 coffeescript:
   config_file: coffeescript.json
 scss:
@@ -8,4 +8,11 @@ scss:
 javascript:
   ignore_file: .js-ignore
 eslint:
+  config_file: .eslintrc.json
+  version: 6.3.0
   enabled: true
+stylelint:
+  config_file: .stylelintrc.json
+  version: 10.1.0
+  enabled: true
+
