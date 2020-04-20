@@ -13,6 +13,6 @@ eslint:
   enabled: true
 stylelint:
   config_file: .stylelintrc.json
-  # version: 10.1.0 commenting hopefully will help with the warnings we receive
+  version: 13.2.1
   enabled: true
 
