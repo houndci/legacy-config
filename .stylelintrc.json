@@ -17,17 +17,8 @@
     "at-rule-empty-line-before": "always",
     "block-closing-brace-empty-line-before": "always-multi-line",
     "number-leading-zero": "always",
-    "at-rule-no-unknown": [
-      true,
-      {
-        "ignoreAtRules": [
-          "extends",
-          "ignores",
-          "include",
-          "mixin"
-        ]
-      }
-    ],
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
     "unit-whitelist": [
       "em",
       "rem",
