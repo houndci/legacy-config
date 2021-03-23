@@ -237,7 +237,7 @@ linters:
     force_nesting: true
   NestingDepth:
     enabled: true
-    max_depth: 4
+    max_depth: 5
     severity: warning
   PropertyCount:
     enabled: true
@@ -246,6 +246,19 @@ linters:
   PropertySpelling:
     enabled: true
     extra_properties: []
+  PropertyUnits:
+    enabled: true
+    global: [
+      'ch', 'em', 'ex', 'rem',                 # Font-relative lengths
+      'cm', 'in', 'mm', 'pc', 'pt', 'px', 'q', # Absolute lengths
+      'vh', 'vw', 'vmin', 'vmax',              # Viewport-percentage lengths
+      'fr',                                    # Grid fractional lengths
+      'deg', 'grad', 'rad', 'turn',            # Angle
+      'ms', 's',                               # Duration
+      'Hz', 'kHz',                             # Frequency
+      'dpi', 'dpcm', 'dppx',                   # Resolution
+      '%']                                     # Other
+    properties: {}
   QualifyingElement:
     enabled: true
     allow_element_with_attribute: false
