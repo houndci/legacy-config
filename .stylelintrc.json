@@ -14,7 +14,14 @@
       }
     ],
     "string-quotes": "single",
-    "at-rule-empty-line-before": "always",
+    "at-rule-empty-line-before": ["always",
+      {
+        "ignore": [
+          "blockless-after-same-name-blockless",
+          "first-nested"
+        ]
+      }
+    ],
     "block-closing-brace-empty-line-before": "always-multi-line",
     "number-leading-zero": "always",
     "at-rule-no-unknown": null,
